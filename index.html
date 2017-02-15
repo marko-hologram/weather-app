@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+  <div class="row">
+    <span>Tested it with multiple proxies and it worked, but it currently doesn't work properly 100% of the time, will work on improving the JavaScript used in this project.</span>
+  </div>
+</div>
+<div class="weather-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="switches">
+          <span>Choose your metric (default: °C): </span><br>
+          <button type="button" class="btn btn-large btn-primary btn-celsius">°C (Celsius)</button>
+          <button type="button" class="btn btn-large btn-primary btn-fahrenheit">°F (Fahrenheit)</button>
+        </div>
+        <div class="col-md-3 col-md-offset-3 weather-data">
+        </div>
+        <div class="col-md-3 icon-wrapper">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="metadata">
+          <p>&copy; Marko "Hologram" Antolić. Service could be innacurate because the location is based on the user's IP address.
+            <br /> Data from IP provided by <a href="http://ipinfo.io/">http://ipinfo.io/</a>
+            <br /> Weather icons provided by <a href="http://www.flaticon.com">http://www.flaticon.com</a>
+            <br /> Background images provided by <a href="https://www.pexels.com/">https://www.pexels.com/</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Latest compiled and minified JS -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./js/app.js"></script>
+  </body>
+</html>
